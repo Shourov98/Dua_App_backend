@@ -52,8 +52,12 @@ Make sure to save the file after editing.
 To start the Node.js application, run the following command:
 
 ```bash
-npm start
+node src/server.js
 ```
+The APIs are 
+[http://localhost:3050/api/duas](http://localhost:3050/api/duas)
+[http://localhost:3050/api/categories](http://localhost:3050/api/categories)
+[http://localhost:3050/api/subcategories](http://localhost:3050/api/subcategories)
 
 Your application should now be running on [http://localhost:3050](http://localhost:3050).
 
