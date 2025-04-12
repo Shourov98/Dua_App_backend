@@ -1,3 +1,4 @@
+To display the API endpoints on new lines in your `README.md`, you can simply list them using Markdown syntax. Here’s how you can modify the `README.md` file to include the API endpoints clearly:
 
 ```markdown
 # Dua App Backend
@@ -11,6 +12,7 @@ Welcome to the Dua App Backend! This is a Node.js backend application designed t
 - [Install Dependencies](#install-dependencies)
 - [Setup Environment Variables](#setup-environment-variables)
 - [Run the Application](#run-the-application)
+- [API Endpoints](#api-endpoints)
 - [License](#license)
 
 ## Prerequisites
@@ -54,22 +56,24 @@ To start the Node.js application, run the following command:
 ```bash
 node src/server.js
 ```
-The APIs are 
-[http://localhost:3050/api/duas](http://localhost:3050/api/duas)
-[http://localhost:3050/api/categories](http://localhost:3050/api/categories)
-[http://localhost:3050/api/subcategories](http://localhost:3050/api/subcategories)
 
 Your application should now be running on [http://localhost:3050](http://localhost:3050).
+
+## API Endpoints
+
+Here are the available API endpoints:
+
+- **Get all duas**: [http://localhost:3050/api/duas](http://localhost:3050/api/duas)
+- **Get all categories**: [http://localhost:3050/api/categories](http://localhost:3050/api/categories)
+- **Get all subcategories**: [http://localhost:3050/api/subcategories](http://localhost:3050/api/subcategories)
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 ```
 
-### Instructions to Use the README
+### Changes Made
+- Added a new section titled **API Endpoints**.
+- Listed each API endpoint on a new line using bullet points for clarity.
 
-1. Copy the above content into a file named `README.md`.
-2. Place the `README.md` file in the root of your project directory.
-3. Feel free to modify any sections as needed to better fit your project's specifics or to add additional information.
-
-This README provides a clear and concise guide for users who want to clone and run your Node.js backend application.
+This format makes it easy for users to see the available API endpoints and access them directly.
