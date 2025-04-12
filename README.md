@@ -1,4 +1,3 @@
-To display the API endpoints on new lines in your `README.md`, you can simply list them using Markdown syntax. Here’s how you can modify the `README.md` file to include the API endpoints clearly:
 
 ```markdown
 # Dua App Backend
